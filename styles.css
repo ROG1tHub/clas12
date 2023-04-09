@@ -1,6 +1,6 @@
 body{
     font-family: 'Alkatra', cursive;
-}
+  }
 a{
     font-size: 15px;
     font-family: 'Alkatra', cursive;
@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #28b4158e;
+    background-color: #57CC99;
     text-decoration: none;
   }
   .logo img {
@@ -47,19 +47,20 @@ header {
 .droptxt{
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
+.pblack{
+  font-weight: bold;
+  font-family: 'Alkatra', cursive;
+  color: #22577A
+}
   img {
     width: 100%;
     height: auto;
   }
-  @media (max-width: 767px) {
-    .col-2,
-    .col-2.offset-8 {
-      width: 100%;
-      margin: 0;
-    }
-  }
   header {
     padding: 10px;
+  }
+  h5{
+    color: #22577A !important;
   }
   
   .col-sm-2 {
@@ -77,6 +78,15 @@ header {
     animation: pulse 3s infinite;
   }
   
+  #boton:hover {
+    background: #22577A;
+    color: white;
+  }
+  #boton:active {
+    background: #57CC99;
+    color: white;
+  }
+  
   @keyframes pulse {
     0% {
       font-variation-settings: 'wght' 100;
@@ -86,5 +96,12 @@ header {
     }
     100% {
       font-variation-settings: 'wght' 100;
+    }
+  }
+  @media (max-width: 767px) {
+    .col-2,
+    .col-2.offset-8 {
+      width: 100%;
+      margin: 0;
     }
   }
